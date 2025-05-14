@@ -1,5 +1,5 @@
 function showAnswer(response) {
-  console.log(response.data.answer);
+  console.log("Processed");
   let answer = response.data.answer;
   alert(`Holiday recommendation: ${answer}`);
 }
