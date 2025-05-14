@@ -1,5 +1,7 @@
 function showAnswer(response) {
-  console.log(response);
+  console.log(response.data.answer);
+  let answer = response.data.answer;
+  alert(`You should visit ${answer}`);
 }
 
 let apiKey = "a2t477eebb3f98daaa0d6cf85ob51907";
